@@ -1,0 +1,1007 @@
+﻿Log file open, 01/16/18 21:50:47
+LogInit:Display: Running engine for game: ShadingTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2067620287) SRandInit(-2067620287).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.069163
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.16-21.50.48:206][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.16-21.50.48:206][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.16-21.50.48:274][  0]LogInit: Computer: DESKTOP-ONLV8GV
+[2018.01.16-21.50.48:274][  0]LogInit: User: Nbeat
+[2018.01.16-21.50.48:274][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.01.16-21.50.48:274][  0]LogInit: High frequency timer resolution =3.125003 MHz
+[2018.01.16-21.50.48:274][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.01.16-21.50.48:274][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.16-21.50.48:274][  0]LogMemory: Process Physical Memory: 271.83 MB used, 271.83 MB peak
+[2018.01.16-21.50.48:274][  0]LogMemory: Process Virtual Memory: 258.31 MB used, 258.31 MB peak
+[2018.01.16-21.50.48:274][  0]LogMemory: Physical Memory: 5840.00 MB used,  2300.86 MB free, 8140.86 MB total
+[2018.01.16-21.50.48:274][  0]LogMemory: Virtual Memory: 667.41 MB used,  2300.86 MB free, 134217728.00 MB total
+[2018.01.16-21.50.48:352][  0]LogInit: Using OS detected language (en-GB).
+[2018.01.16-21.50.48:352][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.16-21.50.48:668][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.01.16-21.50.53:935][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.16-21.50.53:971][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2018.01.16-21.50.53:971][  0]LogD3D11RHI:       2017/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.16-21.50.53:973][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.16-21.50.53:973][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.16-21.50.53:973][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.16-21.50.53:978][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.16-21.50.53:978][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.16-21.50.53:978][  0]LogWindows: EnumDisplayDevices:
+[2018.01.16-21.50.53:979][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2018.01.16-21.50.53:979][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2018.01.16-21.50.53:979][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2018.01.16-21.50.53:979][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2018.01.16-21.50.53:979][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.16-21.50.53:979][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2018.01.16-21.50.53:979][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.16-21.50.53:979][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.16-21.50.53:979][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.16-21.50.54:000][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.16-21.50.54:051][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.16-21.50.54:053][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Intermediate/Shaders/WorkingDirectory/10912/).
+[2018.01.16-21.50.54:053][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nbeat/AppData/Local/Temp/UnrealShaderWorkingDir/F50E146E48CD349E967429986A85E18E/'.
+[2018.01.16-21.50.54:053][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.16-21.50.55:414][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.16-21.50.55:494][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.16-21.50.55:566][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.16-21.50.55:648][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.16-21.50.55:714][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.16-21.50.55:801][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.16-21.50.55:873][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.16-21.50.55:942][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.16-21.50.56:006][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.16-21.50.56:125][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.16-21.50.56:176][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.16-21.50.56:228][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.16-21.50.56:287][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.16-21.50.56:349][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.16-21.50.56:407][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.16-21.50.56:507][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.16-21.50.56:507][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.16-21.50.56:605][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.16-21.50.56:745][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.16-21.50.56:777][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.16-21.50.56:835][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.16-21.50.56:892][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.16-21.50.56:947][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.16-21.50.57:047][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.16-21.50.57:047][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.16-21.50.57:728][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.16-21.51.10:977][  0]LogDerivedDataCache: Loaded boot cache 13.25s 102MB C:/Users/Nbeat/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.16-21.51.10:977][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nbeat/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.16-21.51.10:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.16-21.51.10:977][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.16-21.51.10:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.16-21.51.10:977][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.16-21.51.10:992][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.16-21.51.11:008][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nbeat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.16-21.51.11:018][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.16-21.51.11:018][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.16-21.51.11:065][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.16-21.51.11:066][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.16-21.51.18:636][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.16-21.51.18:746][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.16-21.51.19:030][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.16-21.51.19:116][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.16-21.51.19:232][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.16-21.51.19:232][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.16-21.51.19:232][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.16-21.51.21:336][  0]LogNetVersion: ShadingTest , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 816156160)
+[2018.01.16-21.51.21:406][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
+[2018.01.16-21.51.21:924][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.495043 seconds
+[2018.01.16-21.51.21:931][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.16-21.51.21:931][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.01.16-21.51.21:931][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.16-21.51.22:049][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.16-21.52.07:451][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.16-21.52.07:497][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.16-21.52.08:447][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.16-21.52.08:880][  0]SourceControl: Info Source control is disabled
+[2018.01.16-21.52.08:881][  0]SourceControl: Info Source control is disabled
+[2018.01.16-21.52.08:925][  0]SourceControl: Info Source control is disabled
+[2018.01.16-21.52.08:969][  0]SourceControl: Info Source control is disabled
+[2018.01.16-21.52.10:002][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.16-21.52.10:935][  0]LogEngine: Initializing Engine...
+[2018.01.16-21.52.10:936][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.16-21.52.11:144][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.16-21.52.11:144][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.16-21.52.11:287][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.16-21.52.11:298][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.16-21.52.11:305][  0]LogInit: FAudioDevice initialized.
+[2018.01.16-21.52.11:377][  0]LogDerivedDataCache: Saved boot cache 0.07s 102MB C:/Users/Nbeat/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.16-21.52.11:392][  0]LogInit: Texture streaming: Enabled
+[2018.01.16-21.52.11:513][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.16-21.52.12:228][  0]LogInit: Transaction tracking system initialized
+[2018.01.16-21.52.12:553][  0]BlueprintLog: New page: Editor Load
+[2018.01.16-21.52.14:384][  0]LocalizationService: Info Localization service is disabled
+[2018.01.16-21.52.15:422][  0]LogConsoleResponse:Display: 
+[2018.01.16-21.52.15:680][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.16-21.52.15:680][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.16-21.52.16:306][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/' took 0.01s
+[2018.01.16-21.52.17:411][  0]SourceControl: Info Source control is disabled
+[2018.01.16-21.52.17:411][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.16-21.52.17:445][  0]LightingResults: New page: Lighting Build
+[2018.01.16-21.52.17:578][  0]MapCheck: New page: Map Check
+[2018.01.16-21.52.17:578][  0]LightingResults: New page: Lighting Build
+[2018.01.16-21.52.21:125][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2018.01.16-21.52.22:047][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
+[2018.01.16-21.52.22:851][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
+[2018.01.16-21.52.24:671][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
+[2018.01.16-21.52.25:284][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2018.01.16-21.52.25:320][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2018.01.16-21.52.25:584][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
+[2018.01.16-21.52.25:906][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
+[2018.01.16-21.52.26:469][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
+[2018.01.16-21.52.26:746][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2018.01.16-21.52.26:766][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2018.01.16-21.52.27:260][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
+[2018.01.16-21.52.27:727][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
+[2018.01.16-21.52.28:629][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
+[2018.01.16-21.52.28:943][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2018.01.16-21.52.28:950][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
+[2018.01.16-21.52.29:020][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 2048X1024)
+[2018.01.16-21.52.29:087][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 2048X1024)
+[2018.01.16-21.52.29:167][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 2048X1024)
+[2018.01.16-21.52.29:242][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 2048X1024)
+[2018.01.16-21.52.29:307][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 2048X1024)
+[2018.01.16-21.52.29:372][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 2048X1024)
+[2018.01.16-21.52.29:434][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
+[2018.01.16-21.52.29:458][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.16-21.52.32:741][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.16-21.52.32:927][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.16-21.52.32:978][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.095ms to complete.
+[2018.01.16-21.52.32:979][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 15.567
+[2018.01.16-21.52.33:196][  0]LogCollectionManager: Loaded 0 collections in 0.001091 seconds
+[2018.01.16-21.52.33:285][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Collections/' took 0.01s
+[2018.01.16-21.52.33:285][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/Developers/Nbeat/Collections/' took 0.01s
+[2018.01.16-21.52.33:285][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/Collections/' took 0.00s
+[2018.01.16-21.52.33:285][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.16-21.52.33:295][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2329 classes and 491 folders.
+[2018.01.16-21.52.33:365][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.16-21.52.34:598][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.01.16-21.52.34:643][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.16-21.52.34:846][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.16-21.52.34:890][  0]LogSlate: Took 0.036494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.16-21.52.34:908][  0]LogSlate: Took 0.016524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.16-21.52.35:146][  0]LogSlate: Took 0.233140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.16-21.52.35:356][  0]LogRenderer: Reallocating scene render targets to support 1208x668 NumSamples 1 (Frame:1).
+[2018.01.16-21.52.36:003][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.16-21.52.36:113][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.01.16-21.52.36:113][  0]LogLoad: (Engine Initialization) Total time: 110.84 seconds
+[2018.01.16-21.52.36:113][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.12 seconds
+[2018.01.16-21.52.36:113][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.16-21.52.36:113][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.16-21.52.36:456][  0]LogOcInput: OculusInput pre-init called
+[2018.01.16-21.52.36:456][  0]LogHMD: Starting GearVRController plugin
+[2018.01.16-21.52.36:703][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.16-21.52.37:010][  0]LogSlate: Took 0.034539 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.16-21.52.37:040][  1]LogAssetRegistry: Asset discovery search completed in 75.6577 seconds
+[2018.01.16-21.52.37:043][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.16-21.52.37:043][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2018.01.16-21.53.27:883][732]LogSlate: Took 0.027437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.16-21.53.28:052][732]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.53.29:042][732]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.53.29:142][732]LogSlate: Took 0.029855 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.16-21.53.34:747][814]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.53.34:781][814]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.53.52:861][176]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.53.53:056][177]LogSlate: Took 0.064529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.16-21.54.05:548][327]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.54.05:548][327]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.54.05:548][327]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.54.08:896][432]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.54.10:819][493]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.54.18:082][535]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.54.18:082][535]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.54.18:082][535]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.54.22:265][645]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.54.24:782][681]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.54.24:782][681]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.54.24:782][681]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.54.29:486][856]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.54.30:708][895]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.54.32:374][924]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.54.32:374][924]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.54.32:374][924]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.54.42:814][ 60]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.54.42:818][ 60]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.54.45:030][105]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.54.45:030][105]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.54.45:030][105]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.54.54:591][239]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.54.54:614][239]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.54.57:465][312]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.54.57:853][321]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.55.04:000][409]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.55.04:001][409]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.55.04:001][409]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.55.07:825][533]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.55.07:830][533]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.55.17:517][829]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.55.17:517][829]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.55.17:517][829]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.55.21:992][936]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.55.23:986][967]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.55.26:715][ 10]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.55.26:715][ 10]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.55.26:715][ 10]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.55.33:363][103]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.55.33:517][103]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.55.36:627][169]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.55.36:627][169]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.55.36:628][169]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.55.54:040][451]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.55.58:764][576]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.55.58:768][576]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.56.00:278][619]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.56.05:843][766]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.56.08:609][792]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.56.08:609][792]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.56.08:609][792]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.56.10:269][828]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.56.14:788][908]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.56.16:280][931]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.56.17:376][954]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.56.18:844][967]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.56.20:210][978]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.56.40:444][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAppendVector_1, compiling. 
+[2018.01.16-21.56.42:408][448]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.56.42:408][448]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.56.42:408][448]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.56.53:445][781]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.56.53:720][787]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.56.56:055][832]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.56.57:912][865]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.00:505][913]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.02:221][943]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.03:551][964]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.07:143][ 44]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.10:511][112]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.15:059][199]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.15:064][199]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.20:293][276]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.57.20:293][276]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.57.20:293][276]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.57.22:672][351]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.23:758][371]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.24:380][385]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.25:004][398]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.29:166][475]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.33:039][544]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.35:174][584]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.37:550][625]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.57.47:407][932]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.57.47:407][932]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.57.47:407][932]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.57.59:136][357]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.58.03:820][527]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.58.09:537][743]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.58.11:513][805]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.58.13:992][857]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.58.13:992][857]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.58.13:992][857]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.58.39:553][630]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.58.43:781][701]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.58.43:781][701]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.58.43:781][701]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.58.47:557][770]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.58.49:988][845]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.58.50:396][857]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.58.55:041][950]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.58.55:041][950]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.58.55:041][950]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.58.55:383][951]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.58.58:164][ 13]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.03:023][131]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.04:406][156]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.05:869][186]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.07:022][211]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.14:422][389]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.17:188][458]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.18:689][492]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.19:543][507]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.29:578][611]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-21.59.29:578][611]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-21.59.29:578][611]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-21.59.33:443][634]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.36:055][682]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.37:877][735]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.42:592][856]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.43:276][876]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.45:055][924]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.46:891][972]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.48:737][ 21]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.52:526][131]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.54:731][188]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.55:897][219]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-21.59.58:742][293]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.06:416][417]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.00.06:416][417]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.00.06:416][417]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.00.12:095][587]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.12:441][594]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.12:971][607]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.18:962][721]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.19:969][741]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.21:462][772]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.23:462][810]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.26:183][860]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.28:101][897]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.32:668][996]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.38:532][ 64]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.00.38:532][ 64]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.00.38:532][ 64]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.00.41:247][108]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.42:112][128]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.47:492][220]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.00.49:237][249]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.10:308][733]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.10:312][733]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.15:376][804]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.15:381][804]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.22:557][838]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.25:465][849]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.29:629][867]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.31:046][911]LogMaterialEditor: Saving and Compiling material Shaderboy_M
+[2018.01.16-22.01.35:146][911]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.35:267][911]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.35:331][911]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.35:368][911]TextureStreamingBuild:Display: Compiling optional shaders took 0.001 seconds.
+[2018.01.16-22.01.36:371][911]LogSlate: Took 0.022549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.16-22.01.36:453][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Shaderboy_M" FILE="../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset" SILENT=true
+[2018.01.16-22.01.36:639][911]LogSavePackage: Save=169.66ms
+[2018.01.16-22.01.36:639][911]LogSavePackage: Moving '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Shaderboy_M3F55935A4D1E3C4C1604C8982BFF2B01.tmp' to '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset'
+[2018.01.16-22.01.36:663][911]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset
+[2018.01.16-22.01.36:667][911]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.01.36:667][911]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.01.36:667][911]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.01.45:369][216]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.45:390][216]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.47:163][246]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.52:200][330]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.52:241][330]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.55:496][385]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.01.57:531][444]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.02.18:234][378]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.02.25:263][471]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.02.30:568][667]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.02.30:568][667]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.02.30:568][667]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.02.36:387][741]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.02.39:192][802]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.02.47:419][ 93]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.02.47:419][ 93]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.02.47:419][ 93]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.02.59:804][142]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.01:334][185]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.05:822][242]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.25:279][384]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.27:964][422]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.03.27:964][422]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.03.27:964][422]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.03.37:913][622]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.37:942][622]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.39:903][675]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.42:503][707]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.47:693][799]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.47:712][799]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.52:052][942]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.54:028][ 16]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.57:895][243]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.03.59:879][307]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.04.01:169][375]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.04.02:862][445]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.04.04:457][511]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.04.06:537][606]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.04.15:965][891]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.04.15:965][891]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.04.15:965][891]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.04.17:010][894]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.04.20:992][ 49]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.04.22:395][ 97]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.04.27:175][275]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.04.46:856][  8]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.04.46:861][  8]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.00:428][656]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.03:017][744]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.05:855][839]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.05:859][839]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.07:451][916]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.10:613][ 58]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.10:903][ 70]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.13:070][112]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.05.13:070][112]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.05.13:070][112]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.05.14:722][154]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.16:703][240]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.19:389][382]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.22:487][516]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.23:683][595]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.25:474][677]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.27:460][701]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.05.27:460][701]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.05.27:460][701]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.05.31:085][897]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.35:255][136]LogEditorTransaction: Undo Edit Value
+[2018.01.16-22.05.35:277][136]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.35:359][136]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.35:378][136]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.16-22.05.35:865][148]LogEditorTransaction: Undo Move Node
+[2018.01.16-22.05.35:925][148]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.44:198][380]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.05.44:198][380]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.05.44:198][380]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.05.51:496][565]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.54:910][747]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.57:967][902]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.58:406][925]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.05.59:881][974]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.06.01:665][ 44]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.06.05:823][180]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.06.05:827][180]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.06.10:067][352]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.06.13:741][476]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.06.13:745][476]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.06.16:784][557]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.06.16:784][557]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.06.16:784][557]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.06.19:117][739]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.06.21:064][813]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.06.23:369][876]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.06.23:369][876]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.06.23:369][876]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.06.29:062][ 12]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.06.44:666][800]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.06.44:666][800]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.06.44:666][800]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.06.49:529][ 90]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.06.52:430][168]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.06.56:075][294]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.07.05:057][725]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.07.09:635][893]LogEditorTransaction: Undo Move Nodes
+[2018.01.16-22.07.09:673][893]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.07.18:304][105]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.07.18:304][105]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.07.18:304][105]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.07.21:940][196]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.07.21:944][196]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.07.26:060][442]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.07.28:616][478]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.07.28:616][478]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.07.28:616][478]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.07.30:334][515]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.07.33:974][609]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.07.35:407][635]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.07.38:682][757]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.07.38:686][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.01.16-22.07.40:936][801]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.07.40:989][801]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.01.16-22.07.44:247][863]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.07.44:247][863]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.07.44:247][863]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.07.58:254][344]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.01.16-22.08.06:172][629]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.08.12:063][801]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.08.12:063][801]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.08.12:063][801]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.08.21:133][232]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.08.24:578][322]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.08.24:582][322]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.08.26:347][383]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.08.30:075][569]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.08.32:652][636]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.08.35:996][751]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.08.36:024][751]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.01.16-22.08.39:647][831]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.08.39:828][831]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.01.16-22.08.42:404][881]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.08.42:409][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.01.16-22.08.45:188][906]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.08.45:188][906]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.08.45:188][906]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.08.49:880][144]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.08.49:932][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.01.16-22.08.52:445][226]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.08.52:476][226]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.01.16-22.08.54:946][257]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.08.54:946][257]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.08.54:946][257]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.09.05:893][370]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.09.05:962][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.01.16-22.09.15:729][645]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.09.15:730][645]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.09.15:730][645]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.09.32:579][474]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.09.35:173][538]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.09.38:867][615]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.09.41:667][702]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.09.47:817][897]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.09.47:817][897]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.09.47:817][897]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.09.52:349][103]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.10.00:025][509]LogMaterialEditor: Saving and Compiling material Shaderboy_M
+[2018.01.16-22.10.00:750][509]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.10.00:795][509]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.10.00:810][509]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.10.00:833][509]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.01.16-22.10.03:038][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Shaderboy_M" FILE="../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset" SILENT=true
+[2018.01.16-22.10.03:079][509]LogSavePackage: Save=32.54ms
+[2018.01.16-22.10.03:079][509]LogSavePackage: Moving '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Shaderboy_M16D160F64D57B286ACB0529A9137A4AA.tmp' to '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset'
+[2018.01.16-22.10.03:082][509]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset
+[2018.01.16-22.10.03:099][509]MaterialEditorStats: Info Base pass shader without light map: 103 instructions
+[2018.01.16-22.10.03:099][509]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.10.03:099][509]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.01.16-22.10.32:246][915]LogEditorActor: Deleted Actor: PostProcessVolume
+[2018.01.16-22.10.32:305][915]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2018.01.16-22.10.51:174][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.16-22.10.53:276][521]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume2)
+[2018.01.16-22.10.57:928][961]Cmd: DELETE
+[2018.01.16-22.10.57:928][961]Cmd: ACTOR DELETE
+[2018.01.16-22.10.58:131][961]LogEditorActor: Deleted Actor: PostProcessVolume
+[2018.01.16-22.10.58:147][961]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.01.16-22.11.35:266][715]LogSavePackage: Save=477.74ms
+[2018.01.16-22.11.35:266][715]LogSavePackage: Moving '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/FirstPersonExampleMap_Auto11C56E7424ACCF392A0D6EE9FBC02C188.tmp' to '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2018.01.16-22.11.35:297][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2018.01.16-22.11.35:303][715]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.618
+[2018.01.16-22.11.35:303][715]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.618
+[2018.01.16-22.12.06:756][ 34]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.01.16-22.12.07:688][ 95]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.16-22.12.07:763][ 95]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.16-22.12.07:782][ 95]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.16-22.12.07:823][ 95]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.01.16-22.12.11:063][180]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.16-22.12.12:333][213]LogMaterialEditor: Saving and Compiling material Shaderboy_M
+[2018.01.16-22.12.12:988][213]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.16-22.12.13:071][213]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.12.13:079][213]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.12.13:103][213]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.01.16-22.12.16:924][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Shaderboy_M" FILE="../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset" SILENT=true
+[2018.01.16-22.12.16:958][213]LogSavePackage: Save=31.70ms
+[2018.01.16-22.12.16:958][213]LogSavePackage: Moving '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Shaderboy_M0BBD45374E74AC703B3C9E9F8765E8E5.tmp' to '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset'
+[2018.01.16-22.12.16:962][213]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset
+[2018.01.16-22.12.17:001][213]MaterialEditorStats: Info Base pass shader without light map: 102 instructions
+[2018.01.16-22.12.17:001][213]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.12.17:001][213]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.01.16-22.13.03:677][253]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.16-22.13.05:319][310]LogMaterialEditor: Saving and Compiling material Shaderboy_M
+[2018.01.16-22.13.05:930][310]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.16-22.13.05:958][310]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.13.05:967][310]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.13.05:993][310]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.01.16-22.13.08:373][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Shaderboy_M" FILE="../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset" SILENT=true
+[2018.01.16-22.13.08:407][310]LogSavePackage: Save=32.43ms
+[2018.01.16-22.13.08:407][310]LogSavePackage: Moving '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Shaderboy_ME7BAC4644379E55C2687959A30E0096D.tmp' to '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset'
+[2018.01.16-22.13.08:410][310]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset
+[2018.01.16-22.13.08:432][310]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.13.08:432][310]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.13.08:432][310]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.01.16-22.13.22:730][681]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.16-22.13.25:471][722]LogMaterialEditor: Saving and Compiling material Shaderboy_M
+[2018.01.16-22.13.26:091][722]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.16-22.13.26:133][722]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.13.26:164][722]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.13.26:186][722]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.01.16-22.13.27:569][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Shaderboy_M" FILE="../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset" SILENT=true
+[2018.01.16-22.13.27:599][722]LogSavePackage: Save=28.06ms
+[2018.01.16-22.13.27:599][722]LogSavePackage: Moving '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Shaderboy_M7998AA3249E522CA86942786F7E2614D.tmp' to '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset'
+[2018.01.16-22.13.27:602][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset
+[2018.01.16-22.13.27:634][722]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.13.27:634][722]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.13.27:634][722]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.01.16-22.15.27:511][943]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.16-22.15.27:563][943]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.16-22.15.29:940][995]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.15.29:940][995]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.15.29:940][995]MaterialEditorStats: Info Texture samplers: 0/16
+[2018.01.16-22.15.32:169][ 17]LogMaterialEditor: Saving and Compiling material Shaderboy_M
+[2018.01.16-22.15.32:747][ 17]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.01.16-22.15.32:803][ 17]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.15.32:844][ 17]LogMaterial: Missing cached shader map for material Shaderboy_M, compiling. 
+[2018.01.16-22.15.32:867][ 17]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2018.01.16-22.15.34:544][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Shaderboy_M" FILE="../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset" SILENT=true
+[2018.01.16-22.15.34:580][ 17]LogSavePackage: Save=30.10ms
+[2018.01.16-22.15.34:580][ 17]LogSavePackage: Moving '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Shaderboy_M81ABC8184A792048120FB5B4DB864A89.tmp' to '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset'
+[2018.01.16-22.15.34:582][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M.uasset
+[2018.01.16-22.15.34:621][ 17]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2018.01.16-22.15.34:621][ 17]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.16-22.15.34:621][ 17]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.01.16-22.15.37:260][210]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.16-22.15.37:406][210]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.16-22.15.37:426][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.16-22.15.37:494][210]PIE: New page: PIE session: FirstPersonExampleMap (16 Jan 2018 22:15:37)
+[2018.01.16-22.15.37:503][210]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.16-22.15.37:544][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040680s)
+[2018.01.16-22.15.37:545][210]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.16-22.15.37:545][210]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2018.01.16-22.15.37:563][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.059403s)
+[2018.01.16-22.15.37:629][210]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.16-22.15.37:632][210]LogInit: FAudioDevice initialized.
+[2018.01.16-22.15.37:693][210]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.16-22.15.37:876][210]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.16-22.15.37
+[2018.01.16-22.15.37:890][210]LogWorld: Bringing up level for play took: 0.050700
+[2018.01.16-22.15.38:072][210]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.01.16-22.15.38:111][210]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.033
+[2018.01.16-22.15.38:111][210]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.16-22.17.21:673][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.16-22.17.21:941][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.16-22.23.23:700][726]LogSavePackage: Save=184.20ms
+[2018.01.16-22.23.23:700][726]LogSavePackage: Moving '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/FirstPersonExampleMap_Auto2F3936A9341F9891DC32AEE9A8040BC4E.tmp' to '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2018.01.16-22.23.23:701][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2018.01.16-22.23.23:703][726]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.263
+[2018.01.16-22.23.23:703][726]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.263
+[2018.01.16-22.23.23:747][726]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Shaderboy_M_Inst] ([1] browsable assets)...
+[2018.01.16-22.23.23:827][726]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/FirstPersonBP/Shaderboy_M_Inst.Shaderboy_M_Inst]
+[2018.01.16-22.23.23:827][726]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Shaderboy_M_Inst]
+[2018.01.16-22.23.23:841][726]LogSavePackage: Save=11.75ms
+[2018.01.16-22.23.23:841][726]LogSavePackage: Moving '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Shaderboy_M_Inst_Auto25236187D4DDDAC834ABF16A558EEF5D3.tmp' to '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Autosaves/Game/FirstPersonBP/Shaderboy_M_Inst_Auto2.uasset'
+[2018.01.16-22.23.23:845][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Autosaves/Game/FirstPersonBP/Shaderboy_M_Inst_Auto2.uasset
+[2018.01.16-22.23.23:845][726]LogFileHelpers: Auto-saving content packages took 0.098
+[2018.01.16-22.32.06:044][612]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.01.16-22.32.06:240][613]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2018.01.16-22.32.06:340][614]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2018.01.16-22.32.06:419][615]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2018.01.16-22.32.06:518][616]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2018.01.16-22.32.06:661][618]LogMaterial: Missing cached shader map for material Material_5, compiling. 
+[2018.01.16-22.32.06:767][619]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2018.01.16-22.32.06:864][620]LogMaterial: Missing cached shader map for material Material_7, compiling. 
+[2018.01.16-22.32.09:480][665]LogSavePackage: Save=140.57ms
+[2018.01.16-22.32.09:480][665]LogSavePackage: Moving '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/FirstPersonExampleMapE511E4E1418980384AD4F0862E893F69.tmp' to '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.01.16-22.32.09:487][665]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.01.16-22.32.09:541][665]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.310
+[2018.01.16-22.32.09:708][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Shaderboy_M_Inst" FILE="../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M_Inst.uasset" SILENT=true
+[2018.01.16-22.32.09:744][665]LogSavePackage: Save=19.02ms
+[2018.01.16-22.32.09:744][665]LogSavePackage: Moving '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Shaderboy_M_Inst0FAD364C4C161F11D91B73902FD85C8D.tmp' to '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M_Inst.uasset'
+[2018.01.16-22.32.09:765][665]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/FirstPersonBP/Shaderboy_M_Inst.uasset
+[2018.01.16-22.38.27:091][395]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.16-22.38.27:103][395]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.16-22.38.27:104][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.16-22.38.27:104][395]PIE: New page: PIE session: FirstPersonExampleMap (16 Jan 2018 22:38:27)
+[2018.01.16-22.38.27:104][395]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.16-22.38.27:182][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078316s)
+[2018.01.16-22.38.27:183][395]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.16-22.38.27:183][395]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2018.01.16-22.38.27:183][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.079614s)
+[2018.01.16-22.38.27:219][395]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.16-22.38.27:224][395]LogInit: FAudioDevice initialized.
+[2018.01.16-22.38.27:274][395]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.16-22.38.27:277][395]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.16-22.38.27
+[2018.01.16-22.38.27:277][395]LogWorld: Bringing up level for play took: 0.002261
+[2018.01.16-22.38.27:278][395]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.201
+[2018.01.16-22.38.27:279][395]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.16-22.38.34:570][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.16-22.38.34:650][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.16-22.55.31:608][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2018.01.16-22.55.33:315][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.17-00.18.15:491][ 51]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.17-00.18.16:182][ 52]Cmd: QUIT_EDITOR
+[2018.01.17-00.18.17:588][ 52]LogExit: Preparing to exit.
+[2018.01.17-00.18.18:827][ 52]LogDirectoryWatcher: A directory notification for 'C:/Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/' was aborted.
+[2018.01.17-00.18.19:124][ 52]LogExit: Editor shut down
+[2018.01.17-00.18.19:148][ 52]LogExit: Transaction tracking system shut down
+[2018.01.17-00.18.23:427][ 52]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.17-00.18.23:428][ 52]LogExit: Object subsystem successfully closed.
+[2018.01.17-00.18.23:706][ 52]LogD3D11RHI: Shutdown
+[2018.01.17-00.18.23:707][ 52]LogD3D11RHI: CleanupD3DDevice
+[2018.01.17-00.18.24:172][ 52]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.17-00.18.26:851][ 52]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2018.01.17-00.18.26:851][ 52]LogModuleManager: Shutting down and abandoning module MaterialEditor (526)
+[2018.01.17-00.18.26:851][ 52]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.01.17-00.18.26:866][ 52]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.01.17-00.18.26:881][ 52]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.01.17-00.18.26:881][ 52]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.01.17-00.18.26:966][ 52]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.17-00.18.26:987][ 52]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.01.17-00.18.26:987][ 52]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.01.17-00.18.26:987][ 52]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.01.17-00.18.27:040][ 52]LogDirectoryWatcher: A directory notification for 'C:/Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/Collections/' was aborted.
+[2018.01.17-00.18.27:040][ 52]LogDirectoryWatcher: A directory notification for 'C:/Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/Developers/Nbeat/Collections/' was aborted.
+[2018.01.17-00.18.27:040][ 52]LogDirectoryWatcher: A directory notification for 'C:/Users/Nbeat/Documents/Unreal Projects/ShadingTest/Saved/Collections/' was aborted.
+[2018.01.17-00.18.27:041][ 52]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.01.17-00.18.27:059][ 52]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.01.17-00.18.27:059][ 52]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.01.17-00.18.27:177][ 52]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.01.17-00.18.27:196][ 52]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.01.17-00.18.27:196][ 52]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.01.17-00.18.27:196][ 52]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.01.17-00.18.27:215][ 52]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.01.17-00.18.27:215][ 52]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.01.17-00.18.27:241][ 52]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.01.17-00.18.27:254][ 52]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.01.17-00.18.27:254][ 52]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.01.17-00.18.27:270][ 52]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.01.17-00.18.27:300][ 52]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.01.17-00.18.27:371][ 52]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.01.17-00.18.27:371][ 52]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.01.17-00.18.27:371][ 52]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.01.17-00.18.27:371][ 52]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.01.17-00.18.27:371][ 52]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.01.17-00.18.27:371][ 52]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.01.17-00.18.27:388][ 52]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.01.17-00.18.27:388][ 52]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.01.17-00.18.27:388][ 52]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.01.17-00.18.27:388][ 52]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.01.17-00.18.27:419][ 52]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.01.17-00.18.27:469][ 52]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.01.17-00.18.27:469][ 52]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.01.17-00.18.27:469][ 52]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.01.17-00.18.27:469][ 52]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.01.17-00.18.27:469][ 52]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.01.17-00.18.27:508][ 52]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.01.17-00.18.27:536][ 52]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.01.17-00.18.27:586][ 52]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.01.17-00.18.27:639][ 52]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.01.17-00.18.27:656][ 52]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.01.17-00.18.27:675][ 52]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.01.17-00.18.27:675][ 52]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.01.17-00.18.27:692][ 52]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.01.17-00.18.27:804][ 52]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.01.17-00.18.27:804][ 52]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.01.17-00.18.27:804][ 52]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.01.17-00.18.27:840][ 52]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.01.17-00.18.27:860][ 52]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.01.17-00.18.27:877][ 52]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.01.17-00.18.27:895][ 52]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.01.17-00.18.27:914][ 52]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.01.17-00.18.27:939][ 52]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.01.17-00.18.27:956][ 52]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.01.17-00.18.27:956][ 52]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.01.17-00.18.27:970][ 52]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.01.17-00.18.27:986][ 52]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.01.17-00.18.27:986][ 52]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.01.17-00.18.27:999][ 52]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.01.17-00.18.27:999][ 52]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.01.17-00.18.28:010][ 52]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.01.17-00.18.28:027][ 52]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.01.17-00.18.28:027][ 52]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.01.17-00.18.28:044][ 52]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.01.17-00.18.28:071][ 52]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.01.17-00.18.28:090][ 52]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.01.17-00.18.28:109][ 52]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.01.17-00.18.28:129][ 52]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.01.17-00.18.28:211][ 52]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.01.17-00.18.28:253][ 52]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.01.17-00.18.28:282][ 52]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.01.17-00.18.28:291][ 52]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.01.17-00.18.28:291][ 52]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.01.17-00.18.28:307][ 52]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.01.17-00.18.28:325][ 52]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.01.17-00.18.28:409][ 52]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.01.17-00.18.28:409][ 52]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.01.17-00.18.28:409][ 52]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.01.17-00.18.28:429][ 52]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.01.17-00.18.28:449][ 52]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.01.17-00.18.28:462][ 52]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.01.17-00.18.28:471][ 52]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.01.17-00.18.28:571][ 52]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.01.17-00.18.28:589][ 52]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.01.17-00.18.28:599][ 52]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.01.17-00.18.28:600][ 52]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.01.17-00.18.28:600][ 52]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.01.17-00.18.28:600][ 52]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.01.17-00.18.28:600][ 52]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.01.17-00.18.28:667][ 52]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.01.17-00.18.28:679][ 52]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.01.17-00.18.28:679][ 52]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.01.17-00.18.28:679][ 52]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.01.17-00.18.28:679][ 52]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.01.17-00.18.28:679][ 52]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.01.17-00.18.28:692][ 52]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.01.17-00.18.28:692][ 52]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.01.17-00.18.28:702][ 52]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.01.17-00.18.28:879][ 52]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.01.17-00.18.28:903][ 52]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.17-00.18.28:904][ 52]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.17-00.18.28:912][ 52]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.17-00.18.28:912][ 52]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.17-00.18.28:923][ 52]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.17-00.18.28:923][ 52]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.17-00.18.28:923][ 52]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.17-00.18.28:923][ 52]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.17-00.18.28:923][ 52]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.17-00.18.28:928][ 52]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.17-00.18.28:928][ 52]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.17-00.18.28:928][ 52]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.17-00.18.28:958][ 52]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.17-00.18.28:958][ 52]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.17-00.18.28:976][ 52]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.17-00.18.28:994][ 52]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.17-00.18.28:994][ 52]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.17-00.18.28:994][ 52]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.17-00.18.28:994][ 52]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.17-00.18.28:994][ 52]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.17-00.18.28:994][ 52]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.17-00.18.29:012][ 52]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.17-00.18.29:037][ 52]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.17-00.18.29:043][ 52]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.17-00.18.29:043][ 52]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.17-00.18.29:043][ 52]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.17-00.18.29:068][ 52]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.17-00.18.29:100][ 52]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.17-00.18.29:128][ 52]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.17-00.18.29:132][ 52]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.17-00.18.29:132][ 52]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.17-00.18.29:132][ 52]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.17-00.18.29:132][ 52]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.17-00.18.29:155][ 52]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.17-00.18.29:177][ 52]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.17-00.18.29:200][ 52]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.17-00.18.29:228][ 52]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.17-00.18.29:228][ 52]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.17-00.18.29:246][ 52]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.17-00.18.29:271][ 52]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.17-00.18.29:271][ 52]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.17-00.18.29:271][ 52]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.17-00.18.29:271][ 52]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.17-00.18.29:271][ 52]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.17-00.18.29:392][ 52]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.17-00.18.29:492][ 52]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.17-00.18.29:520][ 52]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.17-00.18.29:544][ 52]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.17-00.18.29:544][ 52]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.17-00.18.29:559][ 52]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.17-00.18.29:559][ 52]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.17-00.18.29:561][ 52]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.17-00.18.29:561][ 52]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.17-00.18.29:561][ 52]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.17-00.18.29:578][ 52]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.17-00.18.29:594][ 52]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.17-00.18.29:607][ 52]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.17-00.18.29:658][ 52]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.17-00.18.29:659][ 52]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.17-00.18.29:678][ 52]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.17-00.18.29:696][ 52]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.17-00.18.29:711][ 52]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.17-00.18.29:711][ 52]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.17-00.18.29:733][ 52]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.17-00.18.29:733][ 52]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.17-00.18.29:760][ 52]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.17-00.18.29:773][ 52]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.17-00.18.29:853][ 52]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.17-00.18.29:878][ 52]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.17-00.18.29:931][ 52]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.17-00.18.29:931][ 52]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.17-00.18.29:988][ 52]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.17-00.18.30:010][ 52]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.17-00.18.30:010][ 52]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.17-00.18.30:035][ 52]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.17-00.18.30:035][ 52]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.17-00.18.30:035][ 52]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.17-00.18.30:035][ 52]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.17-00.18.30:035][ 52]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.17-00.18.30:035][ 52]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.17-00.18.30:134][ 52]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.17-00.18.30:134][ 52]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Nbeat/Documents/Unreal Projects/ShadingTest/Content/' was aborted.
+[2018.01.17-00.18.30:134][ 52]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.17-00.18.30:134][ 52]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.17-00.18.30:139][ 52]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.17-00.18.30:144][ 52]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.17-00.18.30:144][ 52]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.17-00.18.30:144][ 52]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.17-00.18.30:144][ 52]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.17-00.18.30:170][ 52]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.17-00.18.30:182][ 52]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.17-00.18.30:182][ 52]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.17-00.18.30:198][ 52]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.17-00.18.30:326][ 52]LogDerivedDataCache: Shutdown
+[2018.01.17-00.18.30:326][ 52]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.17-00.18.30:326][ 52]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.17-00.18.30:338][ 52]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.17-00.18.30:353][ 52]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.17-00.18.30:362][ 52]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.17-00.18.30:390][ 52]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.17-00.18.30:411][ 52]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.17-00.18.30:411][ 52]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.17-00.18.30:411][ 52]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.17-00.18.30:424][ 52]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.17-00.18.30:451][ 52]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.17-00.18.30:451][ 52]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.17-00.18.30:451][ 52]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.17-00.18.30:451][ 52]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.17-00.18.30:451][ 52]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.17-00.18.30:467][ 52]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.17-00.18.30:470][ 52]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.17-00.18.30:470][ 52]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.17-00.18.30:470][ 52]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.17-00.18.30:473][ 52]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.17-00.18.30:482][ 52]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.17-00.18.30:482][ 52]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.17-00.18.30:482][ 52]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.17-00.18.30:488][ 52]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.17-00.18.30:488][ 52]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.17-00.18.30:488][ 52]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.17-00.18.30:488][ 52]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.17-00.18.30:488][ 52]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.17-00.18.30:488][ 52]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.17-00.18.30:488][ 52]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.17-00.18.30:488][ 52]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.17-00.18.30:488][ 52]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.17-00.18.30:488][ 52]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.17-00.18.30:488][ 52]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.17-00.18.30:507][ 52]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.17-00.18.30:516][ 52]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.17-00.18.30:523][ 52]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.17-00.18.30:523][ 52]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.17-00.18.30:540][ 52]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.17-00.18.30:557][ 52]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.17-00.18.30:571][ 52]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.17-00.18.30:571][ 52]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.17-00.18.30:571][ 52]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.17-00.18.30:571][ 52]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.17-00.18.30:587][ 52]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.17-00.18.30:587][ 52]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.17-00.18.30:601][ 52]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.17-00.18.30:601][ 52]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.17-00.18.30:601][ 52]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.17-00.18.30:606][ 52]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.17-00.18.30:624][ 52]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.17-00.18.30:653][ 52]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.17-00.18.30:653][ 52]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.17-00.18.30:666][ 52]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B61C5743D-48DD-6486-A946-54924BB06DDE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=76442edf4af4c14ef6eac1a294d89692%7C54c4bc89e0c04d2aba33e157806262d7%7C2b0ec101-7f29-47bd-8071-ac75ab6c1909&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.17-00.18.30:678][ 52]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.17-00.18.30:709][ 52]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.17-00.18.30:729][ 52]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.17-00.18.30:749][ 52]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.17-00.18.30:802][ 52]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.17-00.18.30:851][ 52]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.17-00.18.30:863][ 52]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.17-00.18.30:863][ 52]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.17-00.18.30:863][ 52]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.17-00.18.30:902][ 52]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.17-00.18.30:921][ 52]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.17-00.18.30:921][ 52]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.17-00.18.30:921][ 52]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.17-00.18.30:921][ 52]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.17-00.18.30:921][ 52]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.17-00.18.30:921][ 52]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.17-00.18.30:939][ 52]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.17-00.18.30:951][ 52]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.17-00.18.30:966][ 52]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.17-00.18.30:988][ 52]LogExit: Exiting.
+[2018.01.17-00.18.31:003][ 52]Log file closed, 01/17/18 00:18:31
